@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-   
     <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/f06ee14b/img/favicon.ico" type="image/x-icon"><title>YouTube</title>
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
        rel="stylesheet">
@@ -14,14 +13,14 @@
  </head>
  <body>
      <div class="header">
+        
          <div class="logo-container">
-             <i class="ri-menu-line"></i>
-             <div class="logo">
-                 <div class="logo-img">
-                     <img src="images/youtube-logo-png-2061.png" alt="">
-                 </div>
-                 <h1 id="logo-txt">YouTube</h1>
-             </div>
+            <img src="images/menu.svg" alt="" class="menu">
+            
+                
+                     <img src="images/logo.svg" alt="" class="logo-img">
+               
+             
          </div>
          <div class="search-container">
              <form action="">
@@ -32,9 +31,11 @@
  
          </div>
          <div class="profile-container">
-             <i class="ri-video-add-line"></i>
-             <i class="ri-grid-fill"></i>
-             <i class="material-icons">notifications</i>
+          <img src="images/create.svg" alt="" class="create">
+         
+            <img src="images/notification.svg" alt="" class="noti">
+       
+        
              <div class="profile-box">
                  <img src="images/javid.jpg" alt="">
              </div>
@@ -43,49 +44,73 @@
      <div class="body-container">
          <div class="sidebar">
              <div class="sidebar-items">
-                 <a class="sidebar-item"><i class="ri-home-5-line"></i></i>Home</a>
-                 <a class="sidebar-item"><i class="ri-compass-3-line"></i>Explore</a>
-               
-                 <a class="sidebar-item"><i class="material-icons">subscriptions</i></a>
+                 <a class="sidebar-item active"><img src="images/home.svg" alt="" class="subscription-logo"><p class="text">Home</p></a>
+                 <a class="sidebar-item"><img src="images/shorts.svg" alt="" class="subscription-logo"><p class="text">Shorts</p></a>
+                 <a class="sidebar-item"><img src="images/subscribe.svg" alt="" class="subscription-logo"><p class="text">Subscriptions</p></a>
                  <hr>
-                 <a class="sidebar-item"><i class="material-icons">video_library</i></a>
-                 <a class="sidebar-item"><i class="ri-history-line"></i>History</a>
-                 <a class="sidebar-item"><i class="ri-video-line"></i>Your videos</a>
-                 <a class="sidebar-item"><i class="ri-time-line"></i>Watch later</a>
-                 <a class="sidebar-item"><i class="ri-play-list-2-line"></i>All videos</a>
-                 <a class="sidebar-item"><i class="ri-arrow-down-s-line"></i>Show more</a>
-         
+                 <a class="sidebar-item"><img src="images/library.svg" alt="" class="subscription-logo"><p class="text">Subscriptions</p></a>
+                 <a class="sidebar-item"><img src="images/history.svg" alt="" class="subscription-logo"><p class="text">History</p></a>
+                 <a class="sidebar-item"><img src="images/yourvideos.svg" alt="" class="subscription-logo"><p class="text">Your videos</p></a>
+                 <a class="sidebar-item"><img src="images/watchlater.svg" alt="" class="subscription-logo"><p class="text">Liked videos</p></a>
+                 <a class="sidebar-item"><img src="images/liked.svg" alt="" class="subscription-logo"><p class="text">Liked videos</p></a>
+                 
                  <hr>
-
-                 edited
                  <h4 class="more">Subscriptions</h4>
-                 <a class="sidebar-item"><img src="images/bro-logo.png" alt="" class="subscription-logo">Brototype Malayalam</a>
-                 <a class="sidebar-item"><img src="images/aliabe.jpg" alt="" class="subscription-logo"> Alia Bhatt</a>
-                 <a class="sidebar-item"><img src="images/ali.jpg" alt="" class="subscription-logo"> Ali Abdaal</a>
-                 <a class="sidebar-item"><img src="images/" alt=""> Pearle Maney</a>
-                 <a class="sidebar-item"><i class="ri-flag-line"></i>Report history</a>
-                 <a class="sidebar-item"><i class="ri-question-line"></i>Help</a>
-                 <a class="sidebar-item"><i class="ri-feedback-line"></i>Send feedback</a>
-                 <hr>
-                 edited
+                 <a class="sidebar-item"><img src="images/twentyfour.jpg" alt="" class="subscription-logo"><p class="text">24 News</p><img src="images/newslive.svg" alt="" id="news-live"> </a>
+                 <a class="sidebar-item"><img src="images/bro-logo.png" alt="" class="subscription-logo"><p class="text">Brototype Malayalam</p></a>
+                 <a class="sidebar-item"><img src="images/aliabe.jpg" alt="" class="subscription-logo"> <p class="text">Alia Bhatt</p></a>
+                 <a class="sidebar-item"><img src="images/ali.jpg" alt="" class="subscription-logo"><p class="text">Ali Abdaal</p></a>
+                 <a class="sidebar-item"><img src="images/pearley-logo.jpg" alt=""  class="subscription-logo"> <p class="text">Pearle Maney</p></a>
+                 <a class="sidebar-item"><img src="images/ted-logo.jpg" alt=""  class="subscription-logo"> <p class="text">Ted Talks</p></a>
+                 <a class="sidebar-item"><img src="images/jose-logo.jpg" alt=""  class="subscription-logo"><p class="text">Joseph Annamkutt...</p></a>
+                 <a class="sidebar-item"><img src="images/english-house.jpg" alt=""  class="subscription-logo"> <p class="text">English House</p></a>
+                 <a class="sidebar-item"><img src="images/JISMA.jpg" alt=""  class="subscription-logo"> <p class="text">J & V</p></a>
 
-
-                 <h4 class="more">More from youtube</h4>
-                 <a class="sidebar-item"><i class="ri-keyboard-box-line"></i>Gaming</a>
-                 <a class="sidebar-item"><i class="ri-live-line"></i>Live</a>
-                 <a class="sidebar-item"><i class="ri-award-line"></i>Sports</a>
+                 <a class="sidebar-item"><i class="ri-arrow-down-s-line"></i>Show more</a>
                  <hr>
-                 <a class="sidebar-item"><i class="ri-settings-5-line"></i>Settings</a>
-                 <a class="sidebar-item"><i class="ri-flag-line"></i>Report history</a>
-                 <a class="sidebar-item"><i class="ri-question-line"></i>Help</a>
-                 <a class="sidebar-item"><i class="ri-feedback-line"></i>Send feedback</a>
- 
-             </div>
- 
-         </div>
+                
+                 
+                
+
+              
+                 <h4 class="more">Explore</h4>
+                 <a class="sidebar-item"><img src="images/trending.svg" alt="" class="subscription-logo"><p class="text">Trending</p></a>
+                 <a class="sidebar-item"><img src="images/music-sidebar.svg" alt="" class="subscription-logo"><p class="text">Music</p></a>
+                 <a class="sidebar-item"><img src="images/movies.svg" alt="" class="subscription-logo"><p class="text">Movies</p></a>
+                 <a class="sidebar-item"><img src="images/live-utub.svg" alt="" class="subscription-logo"><p class="text">Live</p></a>
+                 <a class="sidebar-item"><img src="images/gaming.svg" alt="" class="subscription-logo"><p class="text">Gaming</p></a>
+                 <a class="sidebar-item"><img src="images/newspaper.svg" alt="" class="subscription-logo"><p class="text">Newspaper</p></a>
+                 <a class="sidebar-item"><img src="images/sports.svg" alt="" class="subscription-logo"><p class="text">Sports</p></a>
+                 <a class="sidebar-item"><img src="images/learning.svg" alt="" class="subscription-logo"><p class="text">Learning</p></a>
+                 <a class="sidebar-item"><img src="images/fashion.svg" alt="" class="subscription-logo"><p class="text">Fashion & Beauty</p></a>
+                 <hr>
+              
+               
+                 <h4 class="more">More from YouTube</h4>
+                 <a class="sidebar-item"><img src="images/premium.svg" alt="" id="youtube"><p class="premium">YouTube Premium</p></a>
+                 <a class="sidebar-item"><img src="images/studio.svg" alt="" id="studio"><p class="premium">Creator Studio</p></a>
+                 <a class="sidebar-item"><img src="images/music.svg" alt="" id="utub-mus"><p class="premium">YouTube Music</p></a>
+                 <a class="sidebar-item"><img src="images/kids.svg" alt="" id="kids"><p class="premium">YouTube Kids</p></a>
+                 <a class="sidebar-item"><img src="images/tv.svg" alt="" id="tv"><p class="premium">YouTube Tv</p></a>
+                 <hr>
+                
+                 <a class="sidebar-item"><img src="images/settings.svg" alt="" id="tv"><p class="premium">Settings</p></a>
+                 <a class="sidebar-item"><img src="images/report.svg" alt="" id="tv"><p class="premium">Report history</p></a>
+                 <a class="sidebar-item"><img src="images/help.svg" alt="" id="tv"><p class="premium">Help</p></a>
+                 <a class="sidebar-item"><img src="images/fedback.svg" alt="" id="tv"><p class="premium">Send feedback</p></a>
+                 <hr>
+                 <div class="about">
+                 <p>About &nbsp; Press  &nbsp;Copyright <br> Contact us  &nbsp;Creators <br> Advertise  &nbsp;Developers</p></div>
+                 <div class="terms">
+                 <p>Terms  &nbsp;Privacy  &nbsp;Policy & Safety <br> How YouTube works <br>Test new features</p></div>
+                 
+ <div class="copyright"><p> 2022 Google LLC</p></div>
+           
+            </div>
+   </div>
          <div class="content">
              <div class="chips-wrapper">
-                 <div class="chip">
+                 <div class="chip" id="all">
                      <p>All</p>
                  </div>
                  <div class="chip">
@@ -122,13 +147,16 @@
                      <p>Mixes</p>
                  </div>
              </div>
-             <div class="video-container">
+            
+             <div class="videocontainer">
                  <div class="video-content-cover">
-                 
                      <div class="video-content">
-                 
+               
                             <a href="https://youtu.be/BsLC5eIjcag" class="video-box">
-                                 <img src="images/time.jpg" alt="" class="bro-img">
+                               <div class="image-div">
+                                <img src="images/time.jpg" alt="" class="bro-img">
+                                <div class="time-line">17:24</div>
+                            </div>
                              </a>
                            
                          <div class="video-details">
@@ -153,7 +181,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/ncWIld9wzLw" class="video-box">
+                           <div class="image-div">
                              <img src="images/tovino.jpg" alt="" class="bro-img">
+                             <div class="time-line">30:10</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -178,7 +209,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/pB-Io4dcFNw" class="video-box">
+                            <div class="image-div">
                              <img src="images/joseph.jpg" alt="" class="bro-img">
+                             <div class="time-line">16:19</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -203,7 +237,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/W-lJtG7hSDo" class="video-box">
+                             <div class="image-div">
                              <img src="images/bit.jpg" alt="" class="bro-img">
+                             <div class="time-line">20:29</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -225,10 +262,16 @@
                          </div>
                      </div>
                  </div>
+                
+               
+               
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/g85WsxE1gAU" class="video-box">
+                            <div class="image-div">
                              <img src="images/ted.jpg" alt="" class="bro-img">
+                             <div class="time-line">10:19</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -253,7 +296,11 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/UFvjfaqyJdY" class="video-box">
+                            <div class="image-div">
                              <img src="images/bnglr.jpg" alt="" class="bro-img">
+                             <div class="time-line">06:30</div>
+                            </div>
+
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -278,7 +325,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtube.com/watch?v=dFOgpeUn73I" class="video-box">
+                            <div class="image-div">
                              <img src="images/saji.jpg" alt="" class="bro-img">
+                             <div class="time-line">10:00</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -303,7 +353,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/F8nPv7Alrw4" class="video-box">
+                           <div class="image-div">
                              <img src="images/green.jpg" alt="" class="bro-img">
+                             <div class="time-line">30:06</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -328,7 +381,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <div class="image-div">
                              <img src="images/smart.jpg" alt="" class="bro-img">
+                             <div class="time-line">15:00</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -353,7 +409,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/pNMBZHoNBWg" class="video-box">
+                         <div class="image-div">
                              <img src="images/abdaal.jpg" alt="" class="bro-img">
+                             <div class="time-line">03:20</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -378,7 +437,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtube.com/watch?v=LQBidj6vQbs" class="video-box">
+                             <div class="image-div">
                              <img src="images/jv.jpg" alt="" class="bro-img">
+                             <div class="time-line">25:30</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -403,7 +465,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/aYVrYGsfMaU" class="video-box">
+                            <div class="image-div">
                              <img src="images/pearley.jpg" alt="" class="bro-img">
+                             <div class="time-line">05:05</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -428,7 +493,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/EQOqXLW_fGI" class="video-box">
+                             <div class="image-div">
                              <img src="images/jacko.jpg" alt="" class="bro-img">
+                             <div class="time-line">30:00</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -452,7 +520,10 @@
                  </div> <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/Zyu1ONDq9-o" class="video-box">
+                            <div class="image-div">
                              <img src="images/gaangoo.jpg" alt="" class="bro-img">
+                             <div class="time-line">40:00</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -477,7 +548,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/31nqsOYjhEo" class="video-box">
+                            <div class="image-div">
                              <img src="images/jabla.jpg" alt="" class="bro-img">
+                             <div class="time-line">20:40</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -502,7 +576,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/KQm-MDMGK2s" class="video-box">
+                              <div class="image-div">
                              <img src="images/self.jpg" alt="" class="bro-img">
+                             <div class="time-line">15:30</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -527,7 +604,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/ebe_UvyJIvg" class="video-box">
+                              <div class="image-div">
                              <img src="images/vocab.jpg" alt="" class="bro-img">
+                             <div class="time-line">08:15</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -552,7 +632,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/cWa_7Ms3AOQ" class="video-box">
+                            <div class="image-div">
                              <img src="images/kitchen.jpg" alt="" class="bro-img">
+                             <div class="time-line">20:30</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -577,7 +660,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/89-_MBV6muY" class="video-box">
-                             <img src="images/hami.jpg" alt="" >
+                                  <div class="image-div">
+                             <img src="images/hami.jpg" alt="">
+                             <div class="time-line">04:00</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -602,7 +688,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/A7yrpejh7Fs" class="video-box">
+                            <div class="image-div">
                              <img src="images/life.jpg" alt="" class="bro-img">
+                             <div class="time-line">12:20</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -627,7 +716,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/U_lYRyanQGE" class="video-box">
+                             <div class="image-div">
                              <img src="images/sis.jpg" alt="" class="bro-img">
+                             <div class="time-line">10:30</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -652,7 +744,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/PKvqhRFHgBU" class="video-box">
+                                  <div class="image-div">
                              <img src="images/vim.jpg" alt="" class="bro-img">
+                             <div class="time-line">09:15</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -677,7 +772,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/A7yrpejh7Fs" class="video-box">
+                            <div class="image-div">
                              <img src="images/time.jpg" alt="" class="bro-img">
+                             <div class="time-line">07:05</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -702,7 +800,10 @@
                  <div class="video-content-cover">
                      <div class="video-content">
                          <a href="https://youtu.be/M1O_MjMRkPg" class="video-box">
+                             <div class="image-div">
                              <img src="images/ora.jpg" alt="" class="bro-img">
+                             <div class="time-line">11:00</div>
+                            </div>
                          </a>
                          <div class="video-details">
                              <div class="channel-logo">
@@ -727,6 +828,7 @@
              </div>
          </div>
      </div>
-    
+     <script src="https://kit.fontawesome.com/c45803e0f3.js" crossorigin="anonymous"></script>
+     
 </body>
 </html>
