@@ -365,9 +365,11 @@ position: relative;
     margin-top: 128px;
     border-radius: 3px;
 }
-
-.video-content-cover {
+.image-div{
     position: relative;
+}
+.video-content-cover {
+   
     transition: .5s;
     transition-delay: .05s;
 }
