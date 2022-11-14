@@ -365,6 +365,9 @@ position: relative;
     margin-top: 128px;
     border-radius: 3px;
 }
+.image-div{
+    position: relative;
+}
 .video-content-cover {
     position: relative;
     transition: .5s;
