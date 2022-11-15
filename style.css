@@ -586,6 +586,7 @@ display: none;
     .video-container{
         grid-template-columns: 1fr;
     }
+   
 }
 .sub-logo{
     width: 30px;
