@@ -575,7 +575,17 @@ position: relative;
     .video-content:hover .hidden-content {
         display: none;
     }
-    
+    .last-sec{
+display: none;
+    }
+    .time-line{
+        margin-left: 7.4rem;
+    }
+}
+@media(max-width:400px){
+    .video-container{
+        grid-template-columns: 1fr;
+    }
 }
 .sub-logo{
     width: 30px;
