@@ -582,9 +582,15 @@ display: none;
         margin-left: 7.4rem;
     }
 }
-@media (min-width: 400px){
-    .video-container{
-        grid-template-columns: 1fr;
+
+@media (max-width:900px){
+    .time-line{
+        margin-left: 8.4rem;
+    }
+}
+@media(max-width:860px){
+    .time-line{
+        margin-left: 7.5rem;
     }
 }
 .sub-logo{
