@@ -593,6 +593,13 @@ display: none;
         margin-left: 7.5rem;
     }
 }
+@media(max-width:400px){
+    .video-container{
+        display: inline-grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
 .sub-logo{
     width: 30px;
     height: 30px;
